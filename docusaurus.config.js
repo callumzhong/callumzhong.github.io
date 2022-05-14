@@ -37,6 +37,9 @@ const config = {
 				blog: {
 					routeBasePath: '/',
 					showReadingTime: true,
+					blogTitle: 'Better than yesterday blog!',
+					blogDescription: 'A Better than yesterday blog!',
+					postsPerPage: 'ALL',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
@@ -112,11 +115,15 @@ const config = {
 				darkTheme: darkCodeTheme,
 			},
 		}),
-	plugins: [
+	themes: [
 		[
-			require.resolve('docusaurus-lunr-search'),
+			'@easyops-cn/docusaurus-search-local',
 			{
-				indexBaseUrl: true,
+				hashed: true,
+				language: ['en', 'zh'],
+				highlightSearchTermsOnTargetPage: true,
+				explicitSearchResultPath: true,
+				blogRouteBasePath: '/',
 			},
 		],
 	],
