@@ -20,6 +20,8 @@
             <name>Callum</name>
             <uri>https://github.com/callumzhong</uri>
         </author>
+        <category label="javascript" term="javascript"/>
+        <category label="toast" term="toast"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Mock API 身為前端該了解的知識點]]></title>
@@ -37,6 +39,7 @@
             <name>Callum</name>
             <uri>https://github.com/callumzhong</uri>
         </author>
+        <category label="api" term="api"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[hashnode-blog-backup]]></title>
@@ -59,5 +62,7 @@
             <name>Callum</name>
             <uri>https://github.com/callumzhong</uri>
         </author>
+        <category label="github" term="github"/>
+        <category label="ssh" term="ssh"/>
     </entry>
 </feed>

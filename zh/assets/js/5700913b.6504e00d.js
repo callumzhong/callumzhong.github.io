@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[483],{2476:function(e){e.exports=JSON.parse('{"permalink":"/zh/tags/ssh","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"A Better than yesterday blog!","blogTitle":"Better than yesterday blog!"}')}}]);
