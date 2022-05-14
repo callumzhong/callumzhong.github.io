@@ -17,15 +17,15 @@ const config = {
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	projectName: 'callumzhong.github.io', // Usually your repo name.
-	organizationName: 'callunzhong', // Usually your GitHub org/user name.
-	// deploymentBranch: 'callumzhong',
+	organizationName: 'callumzhong', // Usually your GitHub org/user name.
+	deploymentBranch: 'gh-pages',
 	trailingSlash: false,
 	// Even if you don't use internalization, you can use this field to set useful
 	// metadata like html lang. For example, if your site is Chinese, you may want
 	// to replace "en" with "zh-Hans".
 	i18n: {
 		defaultLocale: 'en',
-		locales: ['en', 'zh-Hant'],
+		locales: ['en', 'zh'],
 	},
 
 	presets: [
@@ -112,14 +112,11 @@ const config = {
 				darkTheme: darkCodeTheme,
 			},
 		}),
-	themes: [
+	plugins: [
 		[
-			'@easyops-cn/docusaurus-search-local',
+			require.resolve('docusaurus-lunr-search'),
 			{
-				hashed: true,
-				language: ['en', 'zh'],
-				highlightSearchTermsOnTargetPage: true,
-				explicitSearchResultPath: true,
+				indexBaseUrl: true,
 			},
 		],
 	],
