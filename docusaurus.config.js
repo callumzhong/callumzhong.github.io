@@ -38,7 +38,8 @@ const config = {
 					routeBasePath: '/',
 					showReadingTime: true,
 					blogTitle: 'Better than yesterday blog!',
-					blogDescription: 'A Better than yesterday blog!',
+					blogDescription:
+						'Sleep can only dream, only hard work can realize the dream',
 					postsPerPage: 'ALL',
 				},
 				theme: {
@@ -59,7 +60,7 @@ const config = {
 				},
 				items: [
 					{
-						href: 'https://github.com/facebook/docusaurus',
+						href: 'https://github.com/callumzhong',
 						label: 'GitHub',
 						position: 'right',
 					},
