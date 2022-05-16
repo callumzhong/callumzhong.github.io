@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[925],{3445:function(t){t.exports=JSON.parse('{"permalink":"/zh/tags/toast","page":1,"postsPerPage":2,"totalPages":1,"totalCount":2,"blogDescription":"A Better than yesterday blog!","blogTitle":"Better than yesterday blog!"}')}}]);
