@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[48],{1360:function(e){e.exports=JSON.parse('{"permalink":"/zh/tags/api","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"A Better than yesterday blog!","blogTitle":"Better than yesterday blog!"}')}}]);

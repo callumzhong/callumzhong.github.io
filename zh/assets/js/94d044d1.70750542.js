@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[925],{3445:function(e){e.exports=JSON.parse('{"permalink":"/zh/tags/toast","page":1,"postsPerPage":2,"totalPages":1,"totalCount":2,"blogDescription":"Sleep can only dream, only hard work can realize the dream","blogTitle":"Better than yesterday blog!"}')}}]);

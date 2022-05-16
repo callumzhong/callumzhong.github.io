@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[379],{5653:function(e){e.exports=JSON.parse('{"permalink":"/tags/api","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"A Better than yesterday blog!","blogTitle":"Better than yesterday blog!"}')}}]);
