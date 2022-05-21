@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[991],{3885:function(e){e.exports=JSON.parse('{"permalink":"/","page":1,"postsPerPage":6,"totalPages":1,"totalCount":6,"blogDescription":"Sleep can only dream, only hard work can realize the dream","blogTitle":"Better than yesterday blog!"}')}}]);

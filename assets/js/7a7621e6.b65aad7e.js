@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[439],{9796:function(a){a.exports=JSON.parse('{"label":"start-your-day-with-react","permalink":"/tags/start-your-day-with-react","allTagsPath":"/tags","count":1}')}}]);

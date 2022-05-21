@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[489],{7348:function(e){e.exports=JSON.parse('{"permalink":"/tags/start-your-day-with-react","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"Sleep can only dream, only hard work can realize the dream","blogTitle":"Better than yesterday blog!"}')}}]);
