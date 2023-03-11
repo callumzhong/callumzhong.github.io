@@ -16,18 +16,16 @@ export default function DocPageLayoutMain({
           styles.docMainContainerEnhanced,
       )}
     >
-      <div>
-        <Navbar />
-        <div
-          className={clsx(
-            "container padding-top--md padding-bottom--lg",
-            styles.docItemWrapper,
-            hiddenSidebarContainer &&
-              styles.docItemWrapperEnhanced,
-          )}
-        >
-          {children}
-        </div>
+      <Navbar />
+      <div
+        className={clsx(
+          "container padding-top--md padding-bottom--lg",
+          styles.docItemWrapper,
+          hiddenSidebarContainer &&
+            styles.docItemWrapperEnhanced,
+        )}
+      >
+        {children}
       </div>
     </main>
   );
