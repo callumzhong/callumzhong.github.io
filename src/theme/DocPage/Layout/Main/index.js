@@ -27,15 +27,6 @@ export default function DocPageLayoutMain({
       >
         {children}
       </div>
-
-      <script
-        src="https://utteranc.es/client.js"
-        repo="callumzhong/callumzhong.github.io"
-        issueterm="pathname"
-        theme="github-light"
-        crossOrigin="anonymous"
-        async
-      ></script>
     </main>
   );
 }

@@ -36,18 +36,24 @@ const config = {
     locales: ["en"],
   },
 
-  // scripts: [
-  //   // Object format.
-  //   {
-  //     src: "https://utteranc.es/client.js",
-  //     defer: true,
-  //     repo: "callumzhong/callumzhong.github.io",
-  //     "issue-term": "pathname",
-  //     theme: "github-light",
-  //     crossorigin: "anonymous",
-  //   },
-  // ],
-
+  scripts: [
+    {
+      src: "https://giscus.app/client.js",
+      "data-repo": "callumzhong/callumzhong.github.io",
+      "data-repo-id": "R_kgDOJInrrg",
+      "data-category": "General",
+      "data-category-id": "DIC_kwDOJInrrs4CU002",
+      "data-mapping": "title",
+      "data-strict": "0",
+      "data-reactions-enabled": "1",
+      "data-emit-metadata": "0",
+      "data-input-position": "bottom",
+      "data-theme": "preferred_color_scheme",
+      "data-lang": "zh-TW",
+      crossorigin: "anonymous",
+      async: true,
+    },
+  ],
   presets: [
     [
       "classic",

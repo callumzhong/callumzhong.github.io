@@ -133,7 +133,3 @@ html[data-theme="dark"] .header-github-link:before {
   padding-inline-end: var(--sidebar-spacing-horizontal);
   padding-inline-start: var(--sidebar-spacing-horizontal);
 }
-
-.utterances {
-  max-width: 100%;
-}
