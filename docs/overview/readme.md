@@ -5,11 +5,13 @@ title: 關於我
 
 :::info
 
-目前正在找尋新的工作機會，對我有興趣的話請透過 issues 聯繫
+目前正在找尋新的工作機會，有興趣的話請發信 callum.zhong@gmail.com
 
 :::
 
-Hi 我是 Callum 居住於臺北的前端工程師。
+Hi 我是 Callum 前端工程師
+
+簡介：
 
 使用 React.js 開發前端需求擅長拆分 Component、透過 Component 或 Hook 整合常用 npm library，以 TypeScript 檢驗 Component 之間的 Props 傳遞正確性， 引入 React Router 模擬路由有效解決多頁面的前端需求。
 另外動畫需求則以 GSAP 為常用工具， CSS 框架則有過 Bootstrap、Tailwind CSS 的實戰經驗，若是有手刻需求則以 Sass 預處理器的 SCSS 語法進行 7-1 架構的切版。
@@ -51,6 +53,6 @@ Hi 我是 Callum 居住於臺北的前端工程師。
 
 簡介：以 3D 模型展示民宿
 
-## 反饋
+## 備註
 
 此網站使用 Docusaurus 架站 及少量的使用 Swizzling 修改元件，用於整理開發上需要的語法、技巧、技術文獻，公開的用意是希望對遇到困難的朋友有所幫助，且基於減少網路上不正確的訊息為原則，使用 建立 Github Discussions 留言請各位朋友遇到筆記上有錯誤的地方，可以留個言我會盡快處理。
