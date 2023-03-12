@@ -42,7 +42,7 @@ const config = {
       src: "https://utteranc.es/client.js",
       async: true,
       repo: "callumzhong/callumzhong.github.io",
-      issueTerm: "pathname",
+      "issue-term": "pathname",
       theme: "github-light",
       crossorigin: "anonymous",
     },
