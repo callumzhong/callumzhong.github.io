@@ -9,6 +9,5 @@
   }
 }
 .comments-container {
-  max-height: 640px;
-  overflow-y: scroll;
+  padding-top: 1rem;
 }
