@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/callumzhong/callumzhong.github.io/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/callumzhong/callumzhong.github.io/edit/main/",
         },
         theme: {
           customCss: require.resolve(
@@ -64,8 +64,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
-      docs: {},
+      image: "img/github-social-card.jpg",
+      colorMode: {
+        defaultMode: "dark",
+      },
       navbar: {
         title: "Callum Docs",
         hideOnScroll: true,
