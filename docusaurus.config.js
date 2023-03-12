@@ -36,6 +36,18 @@ const config = {
     locales: ["en"],
   },
 
+  scripts: [
+    // Object format.
+    {
+      src: "https://utteranc.es/client.js",
+      async: true,
+      repo: "callumzhong/callumzhong.github.io",
+      issueTerm: "pathname",
+      theme: "github-light",
+      crossorigin: "anonymous",
+    },
+  ],
+
   presets: [
     [
       "classic",
