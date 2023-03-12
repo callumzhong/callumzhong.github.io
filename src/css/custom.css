@@ -41,6 +41,14 @@
   --ifm-menu-color: var(--ifm-color-emphasis-400);
 }
 
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2.5rem;
+}
+
+.markdown video {
+  width: 100%;
+}
+
 .header-github-link:hover {
   opacity: 0.6;
 }

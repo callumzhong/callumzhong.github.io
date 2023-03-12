@@ -61,15 +61,16 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
+      docs: {},
       navbar: {
         title: "Callum Docs",
         hideOnScroll: true,
         items: [
           {
             type: "doc",
-            docId: "tutorial-basics/congratulations",
+            docId: "overview/readme",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
           {
             className: "header-github-link",
