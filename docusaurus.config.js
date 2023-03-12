@@ -47,8 +47,6 @@ const config = {
           routeBasePath: "/",
           sidebarCollapsed: false,
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/callumzhong/callumzhong.github.io/edit/main/",
         },
@@ -58,6 +56,24 @@ const config = {
           ),
         },
       }),
+    ],
+  ],
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "component",
+        path: "component",
+        routeBasePath: "component",
+        breadcrumbs: false,
+        showLastUpdateTime: true,
+        sidebarCollapsed: false,
+        sidebarPath: require.resolve(
+          "./sidebarsComponent.js",
+        ),
+        editUrl:
+          "https://github.com/callumzhong/callumzhong.github.io/edit/main/",
+      },
     ],
   ],
   themeConfig:
@@ -74,15 +90,15 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "overview/readme",
+            docId: "overview/intro",
             position: "left",
             label: "Docs",
           },
           {
-            type: "doc",
-            docId: "gsap/scroll-component",
-            position: "left",
+            to: "/component/gsap/scroll-component",
             label: "Component",
+            position: "left",
+            activeBaseRegex: `/component/`,
           },
           {
             className: "header-github-link",
