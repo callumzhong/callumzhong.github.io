@@ -13,7 +13,7 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 90%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-navbar-padding-vertical: 0;
   --ifm-navbar-item-padding-vertical: 1rem;
@@ -111,7 +111,7 @@ html[data-theme="dark"] .header-github-link:before {
   > .menu__list-item-collapsible
   > .menu__link {
   color: var(--ifm-heading-color);
-  font-size: 0.938rem;
+  font-size: 0.9375rem;
   font-weight: 600;
   line-height: 100%;
 }
@@ -119,14 +119,13 @@ html[data-theme="dark"] .header-github-link:before {
 #__docusaurus .menu__link {
   align-items: center;
   display: flex;
-  font-size: 0.813rem;
+  font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: -0.01em;
   line-height: 16px;
   transition: opacity 0.2s ease-out;
 }
-
-#__docusaurus [class^="docSidebarContainer"] > a,
+*/ #__docusaurus [class^="docSidebarContainer"] > a,
 #__docusaurus [class^="sidebar_"] {
   -webkit-padding-start: var(--sidebar-spacing-horizontal);
   -webkit-padding-end: var(--sidebar-spacing-horizontal);
