@@ -4,18 +4,17 @@ sidebar_position: 1
 title: 關於我
 ---
 
-:::info
+<!-- :::info
 
 目前正在找尋新的工作機會，有興趣的話請發信 callum.zhong@gmail.com
 
-:::
+::: -->
 
 Hi 我是 Callum 前端工程師
 
 簡介：
 
-使用 React.js 開發前端需求擅長拆分 Component、透過 Component 或 Hook 整合常用 npm library，以 TypeScript 檢驗 Component 之間的 Props 傳遞正確性， 引入 React Router 模擬路由有效解決多頁面的前端需求。
-另外動畫需求則以 GSAP 為常用工具， CSS 框架則有過 Bootstrap、Tailwind CSS 的實戰經驗，若是有手刻需求則以 Sass 預處理器的 SCSS 語法進行 7-1 架構的切版。
+使用 React.js 開發前端需求擅長拆分 Component、透過 Component 或 Hook 整合常用 npm library，以 TypeScript 檢驗 Component 之間的 Props 傳遞正確性， 引入 React Router 模擬路由有效解決多頁面的前端需求。動畫則以 GSAP 為常用工具，CSS 工具適需求採用 Bootstrap、Material、Tailwind。
 
 個人興趣是關注生產力工具發展 Habitica、Notion、Rizo、Session，曾在 Gist 貢獻 Habitic to Notion 同步程式。認為想法只是執行的乘法，即使世界上最棒的想法，當遇到零執行它的價值就是零。
 
