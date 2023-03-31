@@ -4,11 +4,11 @@ sidebar_position: 1
 title: 關於我
 ---
 
-<!-- :::info
+:::info
 
 目前正在找尋新的工作機會，有興趣的話請發信 callum.zhong@gmail.com
 
-::: -->
+:::
 
 Hi 我是 Callum 前端工程師
 
