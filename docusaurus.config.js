@@ -55,6 +55,10 @@ const config = {
             "./src/css/custom.css",
           ),
         },
+        gtag: {
+          trackingID: "G-9E24CZC73H",
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
