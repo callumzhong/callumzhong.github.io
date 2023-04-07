@@ -125,7 +125,7 @@ html[data-theme="dark"] .header-github-link:before {
   line-height: 16px;
   transition: opacity 0.2s ease-out;
 }
-*/ #__docusaurus [class^="docSidebarContainer"] > a,
+#__docusaurus [class^="docSidebarContainer"] > a,
 #__docusaurus [class^="sidebar_"] {
   -webkit-padding-start: var(--sidebar-spacing-horizontal);
   -webkit-padding-end: var(--sidebar-spacing-horizontal);

@@ -68,7 +68,7 @@ export default function DocItemLayout({ children }) {
             reactionsEnabled="1"
             emitMetadata="0"
             inputPosition="top"
-            theme="preferred_color_scheme"
+            theme="dark"
             lang="zh-TW"
             loading="lazy"
           />
