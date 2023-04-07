@@ -94,12 +94,12 @@ const config = {
             position: "left",
             label: "Docs",
           },
-          {
-            to: "/component/gsap/scroll-component",
-            label: "Component",
-            position: "left",
-            activeBaseRegex: `/component/`,
-          },
+          // {
+          //   to: "/component/gsap/scroll-component",
+          //   label: "Component",
+          //   position: "left",
+          //   activeBaseRegex: `/component/`,
+          // },
           {
             className: "header-github-link",
             href: "https://github.com/callumzhong",
