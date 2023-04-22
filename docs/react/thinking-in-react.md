@@ -87,4 +87,6 @@ title: 用 React 思考
 
 Step 1: Break the UI into a component hierarchy
 
+筆者撰寫中...
+
 <!-- // TODO: 用 React 思考 -->
