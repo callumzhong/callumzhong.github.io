@@ -55,6 +55,10 @@ const config = {
             "./src/css/custom.css",
           ),
         },
+        gtag: {
+          trackingID: "G-LBW5X8R4ZK",
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -73,11 +77,6 @@ const config = {
         ),
         editUrl:
           "https://github.com/callumzhong/callumzhong.github.io/edit/main/",
-      },
-      "@docusaurus/plugin-google-gtag",
-      {
-        trackingID: "G-LBW5X8R4ZK",
-        anonymizeIP: true,
       },
     ],
   ],
